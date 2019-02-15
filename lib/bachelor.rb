@@ -11,7 +11,7 @@ end
 
 def get_contestant_name(data, occupation)
   data.each do |season, info| 
-   if info[:occupation].include?(name)
+   if info[:occupation].include?(data)
        return season["name"]
     end
   end
