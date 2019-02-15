@@ -3,7 +3,7 @@ def get_first_name_of_season_winner(data, season)
     contestant.each do |key, value|
       if value == "Winner"
         result = contestant["name"]
-        return result
+        return result.split(' ').first
       end
     end
   end
