@@ -1,4 +1,8 @@
-
+data.each do |season, info| 
+   if info[:players].include?(name)
+       return game_hash[location][:players][name][stat]
+    end
+  end
 
 
 
