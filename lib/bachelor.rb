@@ -15,6 +15,7 @@ def get_contestant_name(data, occupation)
       contestant.each do |key, value|
         if value == occupation
           return contestant["name"]
+          
 
 def count_contestants_by_hometown(data, hometown)
   # code here
